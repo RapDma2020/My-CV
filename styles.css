@@ -1,0 +1,93 @@
+body {
+    background-color: #fff8dc ;
+    font-family: "JetBrains Mono", sans-serif;
+}
+
+.container {
+    padding-top: 20px;
+    margin: auto;
+    width: 750px;
+}
+
+h2 {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h4 {
+    padding-left: 20px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+p {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: darkorchid;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info {
+    padding-left: 20px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.info-text {
+    margin-left: 20px;
+}
+
+.info-text p {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 28px;
+}
+
+.info-card {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: 20px;
+}
+
+.knowledge {
+    background-color: #ffe4c4;
+    border-radius: 15px;
+}
+
+.languages {
+    padding-left: 156px;
+}
+
+.projects {
+    background-color: #ffe4c4;
+    border-radius: 15px;
+}
+
+.about_me {
+    background-color: #ffe4c4;
+    border-radius: 15px;
+}
+
+.education {
+    background-color: #ffe4c4;
+    border-radius: 15px;
+}
